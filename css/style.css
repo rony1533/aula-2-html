@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60px;
+    background: black;
+}
+
+.header .caixa {
+    max-width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header .caixa .logo {
+    float: left;
+    color: white;
+}
+
+.header nav {
+    float: right;
+    color: white;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    color: white;
+    display: inline;
+    margin-left: 25px;
+  }
+
+.apresentacao {
+    background-image: url('../img/team.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    text-align: center;
+    color: white;
+}
+.apresentacao p {
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  
+.aparesentacao_titulo {
+    padding-top: 50px;
+    font-size: 50px;
+    margin: 0;
+}
+.cabecalho {    
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60px;
+}
+.cabecalho .caixa {
+    max-width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+.cabecalho span {
+    float: left;
+    margin: 0;
+    color: white;
+}
+.cabecalho .email {
+    float: right;
+    margin-top: 30px;
+}
+
+.cor-orange {
+    color: orangered;
+}
+.inp-simple {
+    border: solid white;
+}
+.button-orange {
+    background-color: orangered;
+    border: solid orangered;
+}
