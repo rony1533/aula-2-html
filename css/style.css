@@ -46,6 +46,10 @@ ul li {
     text-align: center;
     color: white;
 }
+.apresentacao .caixa {
+    max-width: 1080px;
+    margin: 0 auto;
+}
 .apresentacao p {
     padding-top: 40px;
     font-size: 20px;
@@ -56,6 +60,7 @@ ul li {
     font-size: 50px;
     margin: 0;
 }
+
 .cabecalho {    
     background-color: black;
     padding-top: 10px;
@@ -86,4 +91,46 @@ ul li {
 .button-orange {
     background-color: orangered;
     border: solid orangered;
+}
+
+.sobre {
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sobre .caixa {
+    max-width: 1095px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.box1 {
+    text-align: center;
+    width: 170px;
+}
+.box2 {
+    text-align: center;
+    width: 170px;
+}
+.box3 {
+    text-align: center;
+    width: 170px;
+}
+.card {
+    width: 125px;
+}
+.cardtxt {
+    margin: 0;
+}
+
+footer {
+    background-color: orangered;
+    height: 60px;
+}
+footer p {
+    padding-top: 25px;
+    color: white;
+    text-align: center;
 }
