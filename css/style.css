@@ -99,27 +99,33 @@ ul li {
     padding-bottom: 50px;
 }
 .sobre .caixa {
-    max-width: 1095px;
+    max-width: 1000px;
     height: 100%;
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+
 }
 .box1 {
     text-align: center;
     width: 170px;
+    float: left;
 }
 .box2 {
     text-align: center;
     width: 170px;
+    float: left;
+    margin-left: 150px;
 }
 .box3 {
     text-align: center;
     width: 170px;
+    float: right;
+    margin-left: 200px;
 }
 .card {
     width: 125px;
+
 }
 .cardtxt {
     margin: 0;
