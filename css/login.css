@@ -1,0 +1,57 @@
+.pag-login {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.box-login {
+    display: inline-block;
+    background-color: white;
+    box-shadow: 3px 3px 5px 2px #ccc;
+    padding: 45px 20px 0px 20px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+form {
+    margin-bottom: 60px;
+}
+
+.input-padrao {
+    display: inline-block;
+    width: 270px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-green {
+    color: white;
+    background-color: green;
+    margin-bottom: 50px;
+    border: 0px;
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.m-bottom {
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: orangered;
+    height: 300px;
+}
+footer p {
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 270px;
+}

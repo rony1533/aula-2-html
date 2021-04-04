@@ -5,19 +5,18 @@ body {
 }
 
 .header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 60px;
+    height: 80px;
     background: black;
+    border-bottom: 5px solid orangered;
 }
-
-.header .caixa {
-    max-width: 980px;
-    height: 100%;
+.caixa {
+    max-width: 80%;
     margin: 0 auto;
+    height: 100%;
 }
 
-.header .caixa .logo {
+
+.caixa .logo {
     float: left;
     color: white;
 }
@@ -62,81 +61,61 @@ ul li {
 }
 
 .cabecalho {    
-    background-color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 60px;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    height: 80px;
+    background-color: #232323;
+    color: #ffffff;
 }
-.cabecalho .caixa {
-    max-width: 980px;
-    height: 100%;
-    margin: 0 auto;
-}
-.cabecalho span {
+.cabecalho h1 {
     float: left;
     margin: 0;
-    color: white;
 }
 .cabecalho .email {
     float: right;
-    margin-top: 30px;
 }
 
 .cor-orange {
     color: orangered;
 }
 .inp-simple {
-    border: solid white;
+    height: 25px;
+    width: 225px;
 }
 .button-orange {
     background-color: orangered;
-    border: solid orangered;
+    color: #ffffff;
+    border: none;
+    width: 60px;
+    height: 30px;
 }
 
 .sobre {
-    height: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.sobre .caixa {
-    max-width: 1000px;
-    height: 100%;
-    width: 100%;
+    height: 280px;
     margin: 0 auto;
-    display: flex;
-
+    max-width: 1126px;
 }
-.box1 {
-    text-align: center;
-    width: 170px;
+.sobre .box{
     float: left;
-}
-.box2 {
     text-align: center;
-    width: 170px;
-    float: left;
-    margin-left: 200px;
+    width: 300px;
+    margin: 14px auto;
 }
-.box3 {
-    text-align: center;
-    width: 170px;
-    float: right;
-    margin-left: 200px;
-}
-.card {
-    width: 125px;
+.sobre .box img {
+    width: 150px;
 
 }
-.cardtxt {
-    margin: 0;
-}
 
-footer {
+.footer-bar  {
     background-color: orangered;
     height: 60px;
 }
-footer p {
-    padding-top: 25px;
-    color: white;
+.footer-bar p {
     text-align: center;
+    margin: 0;
+    padding: 40px;
+    color: white;
+    font-weight: 100;
 }
